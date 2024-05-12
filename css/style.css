@@ -84,7 +84,7 @@ textarea {
   transition: var(--transition);
 }
 .navbar-nav .nav-link:hover:after,
-.navbar-nav .nav-link.show:hover::after{
+.navbar-nav .nav-link.show:hover::after {
   width: 100%;
 }
 .navbar-nav .nav-link.active,
@@ -268,6 +268,19 @@ header .social-media i {
   opacity: 0.8;
   top: 5px;
   bottom: 5px;
+}
+.modal .carousel-control-prev i,
+.modal .carousel-control-next i {
+  position: absolute;
+  font-size: 40px;
+  color: var(--btn-Color);
+  cursor: pointer;
+}
+.modal .carousel-control-prev i {
+  left: -150%;
+}
+.modal .carousel-control-next i {
+  right: -150%;
 }
 /* End of Portfolio */
 /* Start of Testimonial */
